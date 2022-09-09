@@ -12,7 +12,7 @@ class MovieList extends Component {
 
   render() {
     return (
-      <>
+      <div className="container-fluid">
         {/*<!-- PRODUCTS LIST -->*/}
         <h1 className="h3 mb-2 text-gray-800">
           All the movies in the Database
@@ -67,7 +67,7 @@ class MovieList extends Component {
             </div>
           </div>
         </div>
-      </>
+      </div>
     )
   }
 
